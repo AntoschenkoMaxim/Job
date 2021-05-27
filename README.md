@@ -1,5 +1,5 @@
 # FindYourJob
-Проект FindYourJob
+Проект FindYourJob - в разработке
 
 ## Технологии:
  - Bootstrap v5;
