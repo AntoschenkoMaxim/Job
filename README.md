@@ -1,2 +1,6 @@
 # FindYourJob
-Проект с bootstrap
+Проект
+
+## Технологии:
+ - Bootstrap v5;
+ - HTML/CSS;
