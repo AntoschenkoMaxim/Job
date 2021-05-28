@@ -4,3 +4,4 @@
 ## Технологии:
  - Bootstrap v5;
  - HTML/CSS;
+ - JavaScript.
