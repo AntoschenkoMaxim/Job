@@ -9,3 +9,4 @@ const toggleMenu = (event)=>{
 menuButton.addEventListener("click", toggleMenu);
 
 closeMenuButton.addEventListener("click", toggleMenu);
+

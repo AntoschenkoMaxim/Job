@@ -34,8 +34,13 @@ body{
     text-decoration: none;  
 }
 
-.menu-link:hover{
+.active{
     color: #1A75E8;
+    border-bottom: 2px solid #1A75E8;
+}
+
+.menu-link:hover{
+    color: #1A75E8; 
 }
 
 .button{
@@ -66,15 +71,9 @@ body{
     padding-left: 30px;
 }
 
-.auth:hover{
-    color: #1A75E8;
-    background: #fff;
-    border-radius: 5px;
-    padding-top: 15px;
-    padding-right: 30px;
-    padding-bottom: 15px;
-    padding-left: 30px;
-    border-color: #1A75E8;
+.button-primary:hover {
+    transform: scale(1.03);
+    transition: transform 0.5s;
 }
 
 .button-icon{
@@ -347,6 +346,10 @@ body{
 }
 
 @media (max-width: 576px) {
+    .hero-image{
+        width: 200px;
+    }
+
     .hero {
         text-align: center;
     }
