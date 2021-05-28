@@ -39,6 +39,10 @@ body{
     border-bottom: 2px solid #1A75E8;
 }
 
+.actives{
+    color: #1A75E8;
+}
+
 .menu-link:hover{
     color: #1A75E8; 
 }
@@ -69,11 +73,6 @@ body{
     padding-right: 30px;
     padding-bottom: 15px;
     padding-left: 30px;
-}
-
-.button-primary:hover {
-    transform: scale(1.03);
-    transition: transform 0.5s;
 }
 
 .button-icon{
@@ -120,6 +119,10 @@ body{
     outline: none;
 }
 
+.actives{
+    border-color:#1A75E8;
+}
+
 .tags-group{
     padding-left: 15px;
     color: #B2B2B2;
@@ -140,6 +143,7 @@ body{
 .tag:hover{
     color: #1A75E8;
     border-color: #1A75E8;
+    transition:  border-color 0.2s, color 0.2s;
 }
 
 .card{
@@ -282,6 +286,11 @@ body{
     line-height: 19px;
     text-decoration: none;
     color: #111238;
+}
+
+.footer-list-link:hover{
+    color: #1A75E8;
+    transition: 0.2s;
 }
 
 @media (max-width: 1200px) {
